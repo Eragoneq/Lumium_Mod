@@ -1,0 +1,25 @@
+item.lumium_ingot.name=Lumium Ingot
+tile.lumium_ore.name=Lumium Ore
+
+item.ignisium_ingot.name=Ignisium Ingot
+tile.ignisium_ore.name=Ignisium Ore
+
+item.lumium_pickaxe.name=Lumium Pickaxe
+item.lumium_axe.name=Lumium Axe
+item.lumium_sword.name=Lumium Sword
+item.lumium_shovel.name=Lumium Shovel
+
+item.ignisium_pickaxe.name=Ignisium Pickaxe
+item.ignisium_axe.name=Ignisium Axe
+item.ignisium_sword.name=Ignisium Sword
+item.ignisium_shovel.name=Ignisium Shovel
+
+item.lumium_helmet.name=Lumium Helmet
+item.lumium_chestplate.name=Lumium Chestplate
+item.lumium_leggings.name=Lumium Leggings
+item.lumium_boots.name=Lumium Boots
+
+item.ignisium_helmet.name=Ignisium Helmet
+item.ignisium_chestplate.name=Ignisium Chestplate
+item.ignisium_leggings.name=Ignisium Leggings
+item.ignisium_boots.name=Ignisium Boots

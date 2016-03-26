@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "lumium_mod:items/ignisium_shovel"
+    }
+}
