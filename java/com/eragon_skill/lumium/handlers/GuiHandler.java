@@ -1,8 +1,8 @@
 package com.eragon_skill.lumium.handlers;
 
-import com.eragon_skill.lumium.blocks.GuiCraftingAltar;
 import com.eragon_skill.lumium.blocks.ModBlocks;
 import com.eragon_skill.lumium.container.ContainerCraftingAltar;
+import com.eragon_skill.lumium.gui.GuiCraftingAltar;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;

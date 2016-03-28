@@ -86,6 +86,7 @@ public class PlayerCore extends Item{
 			}
 		}
 	}
+	
 	@Override
 	@SideOnly(Side.CLIENT)
     public boolean hasEffect(ItemStack stack) {
@@ -93,7 +94,41 @@ public class PlayerCore extends Item{
 			if(stack.getTagCompound().hasKey("info")){
 				return stack.getTagCompound().hasKey("info");
 			}
-		}
+		}	
 		return false;
     }
+	
+	public static String getPlayerNickname(ItemStack stack){
+		if(stack.getTagCompound() != null){
+			NBTTagCompound nick = (NBTTagCompound) stack.getTagCompound().getTag("info");
+			String name = nick.getString("player");
+			return name;
+		}else{
+			return null;
+		}
+	}
+	
+	public static int getUses(ItemStack stack){
+		if(stack.getTagCompound() != null){
+			NBTTagCompound use = (NBTTagCompound) stack.getTagCompound().getTag("use");
+			int uses = use.getInteger("uses");
+			return uses;
+		}else{
+			return 0;
+		}
+	}
+	public static boolean isBound(ItemStack stack){
+		if(stack.getTagCompound() != null){
+			if(stack.getTagCompound().hasKey("info")){
+				return true;
+			}else{
+				return false;
+			}
+		}else{
+			return false;
+		}
+		
+	}
+	
+
 }

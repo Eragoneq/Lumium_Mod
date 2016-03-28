@@ -164,7 +164,7 @@ public class AltarCraftingManager {
             }
         }
 
-        this.recipes.add(new ShapelessRecipes(stack, list));
+        this.recipes.add(new AltarShapelessRecipes(stack, list));
     }
 
     /**
@@ -215,5 +215,4 @@ public class AltarCraftingManager {
     {
         return this.recipes;
     }
-
 }
